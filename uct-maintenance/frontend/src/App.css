@@ -1,0 +1,86 @@
+/* Styling for the main application header */
+.app-header {
+  text-align: center;
+  padding: 20px;
+  background-color: #004466;
+  color: white;
+  margin-bottom: 20px;
+  border-radius: 10px;
+}
+
+/* Styling for the UCT banner logo */
+.header-logo {
+  max-width: 100%;
+  height: auto;
+  max-height: 200px;
+  margin-bottom: 10px;
+}
+
+/* General styling for the job form container */
+.job-form {
+  margin: 20px auto;
+  max-width: 500px;
+  padding: 20px;
+  border: 2px solid #004466;
+  border-radius: 10px;
+  background-color: #e8eff5;
+}
+
+/* Styling for job list items */
+.job-list {
+  margin: 20px;
+}
+
+/* Styling for individual job cards */
+.job-card {
+  margin: 10px;
+  padding: 15px;
+  border-radius: 5px;
+  border: 1px solid #ddd;
+}
+
+/* Styling for filter buttons */
+.filter-buttons {
+  margin-bottom: 20px;
+}
+
+.filter-buttons .btn {
+  margin: 0 5px;
+}
+
+/* Styling for batch operation buttons */
+.batch-buttons {
+  margin-bottom: 15px;
+}
+
+/* Styling for the footer to ensure it scales full width */
+.footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  padding: 5px 13px;
+  background-color: #f8f9fa;
+  color: #000000;
+  border-top: 1px solid #ddd;
+  box-sizing: border-box;
+  font-size: 0.9rem;
+  position: relative;
+  z-index: 1000;
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 768px) {
+  .footer {
+    padding: 4px 10px;
+    font-size: 0.85rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer {
+    padding: 3px 8px;
+    font-size: 0.8rem;
+  }
+}
